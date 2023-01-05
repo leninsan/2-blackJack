@@ -1,0 +1,35 @@
+
+body{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    text-align: center;
+    background-color: black;
+    font-size:40px;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.apartadoBotones{
+    margin: auto;
+    text-align: center;
+}
+button{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+
+}
+#computadora-cartas,#jugador-cartas{
+    height: 240px;
+
+}
+

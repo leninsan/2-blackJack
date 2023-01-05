@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="titulo">BlackJack</header>
+        <div id="divBotones" class="apartadoBotones">
+                    <button id='botonNuevo'  style="background-color:red ; border:0; border-radius:5px;"><span>Nuevo Juego</span></button>
+                    <button id='botonPedirCarta' disabled='true'style="background-color:blue;border:0; border-radius: 5px"><span>Pedir Carta</span></button>
+                    <button id='botonDetener' disabled='true' style="background-color:blue;border:0; border-radius: 5px"><span>Detener</span></button>
+        </div>
+        
+        <h1 style="color: aliceblue;"> Jugador 1:<small>  0</small></h1>
+        <div id="jugador-cartas" class="visualizarCartas">
+
+        </div>
+        
+        <h1 style="color: aliceblue;">Computadora:<small>  0</small></h1>
+        <div id="computadora-cartas" class="visualizarCartas">
+
+        </div>
+        <script src="assets/js/underscore-min.js"></script>
+        <script src="assets/js/juego-min.js"></script>
+        <script>
+            //inicializar juego
+            console.log( 'hola');
+            console.log( miModulo );
+            miModulo.nuevoJuego();
+        </script>
+
+    </body>
+</html>
